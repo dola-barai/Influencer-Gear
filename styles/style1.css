@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap'); 
+*{
+    font-family: 'Poppins', 'Inter', sans-serif;
+}
+/* -----------Header Part-1------------*/
+body{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 87px;
+    margin-bottom: 100px;
+    color: #3A3A3A;
+}
+.header1-title{
+    font-weight: 700;
+    font-size: 24px;
+}
+.header1-info{
+    font-weight: 600;
+    font-size: 16px;
+}
+.header1-info a, i{
+    margin-right: 34px;
+    text-decoration: none;
+    color: #3A3A3A;
+}
+
+/* -----------Header Part-2------------*/
+.header2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 133px;
+    margin-bottom: 100px;
+    
+}
+.header2-text h2{
+    font-weight: 700;
+    font-size: 52px;
+}
+.header2-text p{
+    font-weight: 600;
+    font-size: 16px;
+}
+.header2-text button{
+    background: #E02C6D;
+    color: white;
+    border: 0;
+    padding: 10px 0px 10px 25px;
+    gap: 8px;
+    border-radius: 40px;
+    width: 196px;
+    height: 44px;
+}
+.header2-text button i{
+    font-size: 16px;
+    color: white;
+    margin-left: 8px;
+}
+.header2 img{
+    background: url(../images/circle-design.svg);
+    width: 440px;
+    height: 414px;
+}
+
+/* -----------Header Part-3------------*/
+
+.header3{
+    width: 1100px;
+    height: 38px; 
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    column-gap: 60px;
+    padding: 15px;
+    border: 1px solid rgb(246, 244, 244);
+    border-left: 0;
+    border-right: 0;
+}
+hr{
+    background: linear-gradient(90deg, rgba(225, 228, 232, 0.1) 0%, rgba(240, 243, 246, 0.067) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+}
+
+/* -----------Popular Collection------------*/
+.popular-collection{
+    width: 1047px;
+    height: 1662px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.popular-collection-article{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    margin-bottom: 50px;
+}
+.popular-title{
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.p-collection img{
+    width: 300px;
+    height: 256px;
+}
+.p-collection h3{
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+    margin-top: 10px;
+}
+.p-collection h4{
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+    margin-top: -15px;
+    margin-bottom: 8px;
+}
+.checked{
+    color: orange;
+    font-size: 12px;
+    margin-right: 0%;
+}
+.fa-star-half-stroke{
+    color: orange;
+    font-size: 12px;
+    margin-right: 0%;
+}
+.p-collection p{
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+}
+
+.p-collection{
+    width: 300px;
+    height: 476px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 20px;
+}
+.see-more{
+    text-align: right;
+    color: #E02C6D;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 38px;
+}
+.see-more i{
+    color: #E02C6D;
+    font-size: 16px;
+}
+/* -----------Banner------------*/
+.banner{
+    margin: 100px 80px 100px 80px;
+    display: flex;
+    gap: 96px;
+}
+.banner img{
+    width: 404px;
+    height: 270px;
+}
+.banner-text{
+    margin-top: -65px;
+}
+.banner-text h4{
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 16px;
+    color: #0A0826;
+}
+.banner-text p{
+    color: #6C6C6C;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.banner-text button{
+    background: #E02C6D;
+    color: white;
+    border: 0;
+    padding: 10px 0px 10px 25px;
+    gap: 8px;
+    width: 155px;
+    height: 44px;
+}
+.banner-text button i{
+    font-size: 16px;
+    color: white;
+    margin-left: 8px;
+}
+
+/* Footer */
+.footer{
+    width: 100%;
+    height: 190px;
+    background: #0A0826;
+    text-align: center;
+}
+.footer-text{
+    padding-top: 8px;
+}
+.footer-text h4{
+    font-size: 24px;
+    color: white;
+    margin-bottom: -10px;
+}
+.footer-text p{
+    font-size: 14px;
+    color: #D9DBE1;
+}
+.footer-text .icons i{
+    color: white;
+    font-size: 18px;
+}
